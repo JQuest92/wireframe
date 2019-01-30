@@ -1,0 +1,155 @@
+body
+{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 990px;
+    font-size: 18px;
+
+}
+
+div 
+{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 495px;
+    overflow: auto;
+    clear: both;
+}
+
+#hdr
+{
+    background: #ebebeb;
+    width: 495px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#nv
+{
+    background: #ebebeb;
+    width: 495px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#sd
+{
+    background: #ebebeb;
+    width: 235px;
+    height: 200px;
+    position: absolute;
+    left: 58%;
+  /*  position: relative;
+    left: 50%;
+    right: 50%; */
+    text-align: center;
+    overflow: auto;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#sctn
+{
+    background: #ebebeb;
+    width: 270px;
+    height: 200px;
+   position: relative;
+    text-align: center;
+    overflow: auto;
+    margin: 5px;
+    padding: 5px;
+    clear: both;
+}
+
+#rtcl
+{
+    color:#ebebeb;
+    background: #777;
+    position: relative;
+    top: 10%;
+    width: 270px;
+    height: 158px;
+    overflow: auto;
+  /*  padding: 1px;
+    margin: 1px;*/
+    text-align: center;    
+    clear: both;
+    
+}
+
+.hdr
+{
+
+    color: #777;
+    background: #ebebeb;
+    width: 33.3%;
+    text-align: center;
+    margin: 1px;
+    font-size: 15px;
+    position: relative;
+    top: 75%;
+
+}
+
+#hdr1
+{
+    
+    float:left;
+}
+
+#hdr2
+{
+  float: left;
+}
+
+#hdr3
+{
+    float: left;
+}
+
+
+#prgrph
+{
+    color: #777;
+    background: #ebebeb;
+    clear: both;
+    overflow: auto;
+    margin: 1%;
+    padding: 1%;
+    position: relative;
+    top: 50%;
+
+}
+
+#ftr
+{
+    background: #ebebeb;
+    width: 495px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    bottom: 80%;
+    text-align: center;
+    clear: both;
+    overflow: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
